@@ -13,7 +13,9 @@
       height: 140px;
     }
 
-
+.justify {
+  text-align: justify;
+}
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
