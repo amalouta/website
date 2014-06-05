@@ -26,14 +26,22 @@
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
       <div class="container">
-
         <div class="navbar navbar-inverse">
           <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="brand" href="index.html">Alexandra Malouta</a>
+
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li> <a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="#">Thesis Paintings</a></li>
                 <li><a href="EarlyWork.html">Early Works</a></li>
                 <li><a href="about.html">About</a></li>
@@ -41,11 +49,8 @@
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
-
+      </div>
+    </div>
 
     <!-- Carousel
     ================================================== -->
@@ -266,15 +271,8 @@
       <!-- FOOTER -->
       <footer>
       <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Alexandra Malouta 2014</p>
-        <p><a rel="license"
-          href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
-          alt="Creative Commons License" style="border-width:0"
-          src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br
-        />This work is licensed under a <a rel="license"
-          href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
-          Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-          License</a>.</p>
+      <p>&copy; 2014 Alexandra Malouta 2014 &middot; <a href=
+        "http://creativecommons.org/licenses/by-nc-nd/4.0/">License</a></p>
       </footer>
 
     </div><!-- /.container -->
